@@ -1,0 +1,11 @@
+sum = 0 
+while  True:
+    userInput = input ( "Enter the price : \n or press q to quit ")
+    if (userInput != "q"):
+        sum = sum + int(userInput)
+        print(f"order total so far : {sum}")
+        
+    else:
+        print("thanks for using our calculator ")
+        print(f"your total bill is {sum}  . thanks for shopping with us ")
+        break 
